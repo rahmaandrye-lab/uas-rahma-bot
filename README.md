@@ -1,12 +1,12 @@
 # Bot Dry Run Indodax: G.Rahma Breakout Hybrid (4 jam)
 
-> **Status: belum di-deploy dan belum di-freeze.** Link Vercel dan commit freeze belum diisi.
+> **Freeze terlambat:** dilakukan 10 Nov 2026, sesudah batas 4 Nov 2026 12.00 WIB, dengan izin dosen. Forward test tetap berakhir 14 Nov 2026 12.00 WIB, jadi hanya sekitar 3,5 hari.
 
 | | |
 |---|---|
 | Nama / NIM | Rahma Sarita / 25110200035 |
 | Mata kuliah | Algorithmic Trading, tugas individu |
-| Vercel | _(belum diisi)_ |
+| Vercel | https://uas-rahma-bot.vercel.app |
 | Repo | https://github.com/rahmaandrye-lab/uas-rahma-bot |
 | Commit freeze | _(belum diisi)_ |
 
