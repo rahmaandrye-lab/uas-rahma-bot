@@ -1,0 +1,11 @@
+BACKTEST 2023-11-01T00:00 → 2026-11-10T04:00 UTC (3.03 thn) · 8 pasangan · fee 0.21%/0.42% + spread & slippage terukur
+return total 98.42% · CAGR 25.42% · MDD -23.46% · trade 88 · WR 32.95% · PF 2.35 · rata2 untung 43.34% / rugi -7.12% · porsi biaya 10.58% (Σ biaya ÷ Σ hasil sebelum biaya)
+beli & tahan BTC/IDR: 146.01% · MDD -49.43% · sinyal beli ditolak validasi data: 67
+  BTCIDR     16 trade · WR 43.75% · PF 2.17 · laba 10.0 jt
+  ETHIDR     11 trade · WR 45.45% · PF 3.21 · laba 18.7 jt
+  XRPIDR     14 trade · WR 21.43% · PF 2.92 · laba 27.4 jt
+  DOGEIDR    16 trade · WR 6.25% · PF 0.48 · laba -9.9 jt
+  TRXIDR     11 trade · WR 36.36% · PF 3.16 · laba 15.4 jt
+  ADAIDR     11 trade · WR 45.45% · PF 2.38 · laba 15.1 jt
+  BNBIDR      9 trade · WR 44.44% · PF 5.50 · laba 22.7 jt
+  per tahun: 2023 14.21% · 2024 73.06% · 2025 1.29% · 2026 -0.89%

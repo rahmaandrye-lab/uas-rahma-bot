@@ -1,0 +1,12 @@
+<!doctype html><html lang="id"><head><meta charset="utf-8"><meta name="viewport" content="width=device-width,initial-scale=1"><title>G.Rahma Bot</title><link rel="preconnect" href="https://fonts.googleapis.com"><link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600;700&display=swap" rel="stylesheet"><style id="css"></style></head>
+<body><header><div class="hwrap"><div class="brand"><div class="logo">GR</div><div><h1>G.Rahma <span>· Bot Dry Run Indodax</span></h1><small>Breakout Hybrid 4 jam · Rahma Sarita · 25110200035</small></div></div></div></header><main><p class="m">Dashboard langsung dari log bot (<a href="/api/state">/api/state</a>). Angka gap backtest vs forward muncul setelah hitung_ulang dijalankan di akhir forward test.</p><div id="o">memuat…</div></main>
+<script type="module">
+import { forwardFromLogs, botStatus, latihanFromLogs } from './metrics.js';
+import { renderDashboard, CSS } from './render.js';
+document.getElementById('css').textContent = CSS;
+try {
+  const [st, bt] = await Promise.all([fetch('/api/state?snap=BTCIDR').then(r => r.json()), fetch('/backtest_ringkasan.json').then(r => r.json())]);
+  const gap = await fetch('/hasil_hitung_ulang.json').then(r => r.ok ? r.json() : null).catch(() => null);
+  renderDashboard(document.getElementById('o'), { bt, fw: forwardFromLogs(st), gap: gap?.gap ?? null, sumber: location.origin + '/api/state', status: botStatus(st), latihan: latihanFromLogs(st) });
+} catch (e) { document.getElementById('o').textContent = 'Gagal memuat: ' + e; }
+</script></body></html>

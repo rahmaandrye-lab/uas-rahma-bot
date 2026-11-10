@@ -1,0 +1,173 @@
+{
+ "dibuat": "2026-11-10T08:33:07.421Z",
+ "mulai": "2023-11-01T00:00",
+ "akhir": "2026-11-10T04:00",
+ "fee": {
+  "beli": 0.0020555,
+  "jual": 0.0041555
+ },
+ "spread_median": {
+  "btcidr": {
+   "n": 11,
+   "half_spread": 0.0000010775865939607018,
+   "slip_beli": 0,
+   "slip_jual": 0
+  },
+  "ethidr": {
+   "n": 11,
+   "half_spread": 0.00008571603502112287,
+   "slip_beli": 0.00023013570819330198,
+   "slip_jual": 0.0002930509526195557
+  },
+  "xrpidr": {
+   "n": 11,
+   "half_spread": 0.0000662149336747081,
+   "slip_beli": 0,
+   "slip_jual": 0.0002613974445759837
+  },
+  "dogeidr": {
+   "n": 11,
+   "half_spread": 0.0003716090672612412,
+   "slip_beli": 0,
+   "slip_jual": 0.00045354586551293874
+  },
+  "trxidr": {
+   "n": 11,
+   "half_spread": 0.0013733905579399143,
+   "slip_beli": 0,
+   "slip_jual": 0.0001509219323228006
+  },
+  "veloidr": {
+   "n": 11,
+   "half_spread": 0.01639344262295082,
+   "slip_beli": 2.220446049250313e-16,
+   "slip_jual": 0
+  },
+  "adaidr": {
+   "n": 11,
+   "half_spread": 0.0005777007510109763,
+   "slip_beli": 0,
+   "slip_jual": 0.00016203683196513996
+  },
+  "bnbidr": {
+   "n": 11,
+   "half_spread": 0.0024152115239506502,
+   "slip_beli": 2.220446049250313e-16,
+   "slip_jual": 0
+  }
+ },
+ "ekuitas": {
+  "awal": 100000000,
+  "akhir": 198422195.01527593,
+  "return_total": 0.9842219501527592,
+  "mdd": 0.23455453559780104,
+  "tahun": 3.025781428245494,
+  "cagr": 0.25415592875489623
+ },
+ "trade": {
+  "jumlah": 88,
+  "win_rate": 0.32954545454545453,
+  "profit_factor": 2.3520869187466396,
+  "rata_untung": 0.43339649041776734,
+  "rata_rugi": -0.07116917751666461,
+  "laba_bersih": 99464603.99949753,
+  "biaya_total": 11767774.27324288,
+  "laba_kotor": 111232378.27274048,
+  "porsi_biaya": 0.10579450386638714
+ },
+ "beli_tahan_btc": {
+  "return_total": 1.4601153545241172,
+  "mdd": 0.4942617751725513
+ },
+ "sinyal_beli_ditolak": 67,
+ "per_pasangan": {
+  "BTCIDR": {
+   "jumlah": 16,
+   "win_rate": 0.4375,
+   "profit_factor": 2.1656296509188264,
+   "rata_untung": 0.19785392699207557,
+   "rata_rugi": -0.05275469747594449,
+   "laba_bersih": 10039102.3733502,
+   "biaya_total": 1757154.654527223,
+   "laba_kotor": 11796257.027877418,
+   "porsi_biaya": 0.14895866124098855
+  },
+  "ETHIDR": {
+   "jumlah": 11,
+   "win_rate": 0.45454545454545453,
+   "profit_factor": 3.2079537106184457,
+   "rata_untung": 0.36885564703063284,
+   "rata_rugi": -0.07345897503101688,
+   "laba_bersih": 18747632.66994554,
+   "biaya_total": 1404584.299858091,
+   "laba_kotor": 20152216.969803635,
+   "porsi_biaya": 0.0696987483790364
+  },
+  "XRPIDR": {
+   "jumlah": 14,
+   "win_rate": 0.21428571428571427,
+   "profit_factor": 2.9237707356062828,
+   "rata_untung": 0.9459713276763444,
+   "rata_rugi": -0.08353246037335403,
+   "laba_bersih": 27424411.866790462,
+   "biaya_total": 1590279.3172449996,
+   "laba_kotor": 29014691.184035465,
+   "porsi_biaya": 0.05480945177593367
+  },
+  "DOGEIDR": {
+   "jumlah": 16,
+   "win_rate": 0.0625,
+   "profit_factor": 0.4791109157469711,
+   "rata_untung": 0.7137188437837407,
+   "rata_rugi": -0.07505658277244877,
+   "laba_bersih": -9934550.15445912,
+   "biaya_total": 1936707.9067878597,
+   "laba_kotor": -7997842.24767126,
+   "porsi_biaya": null
+  },
+  "TRXIDR": {
+   "jumlah": 11,
+   "win_rate": 0.36363636363636365,
+   "profit_factor": 3.1610284563782436,
+   "rata_untung": 0.38505713986673373,
+   "rata_rugi": -0.054201681344541716,
+   "laba_bersih": 15417533.37511091,
+   "biaya_total": 1806528.9578284794,
+   "laba_kotor": 17224062.33293939,
+   "porsi_biaya": 0.1048840234613912
+  },
+  "VELOIDR": {
+   "jumlah": 0,
+   "win_rate": null,
+   "profit_factor": null,
+   "rata_untung": null,
+   "rata_rugi": null,
+   "laba_bersih": 0,
+   "biaya_total": 0,
+   "laba_kotor": 0,
+   "porsi_biaya": null
+  },
+  "ADAIDR": {
+   "jumlah": 11,
+   "win_rate": 0.45454545454545453,
+   "profit_factor": 2.378634049042559,
+   "rata_untung": 0.41491391025060576,
+   "rata_rugi": -0.09421869365523712,
+   "laba_bersih": 15115045.103669643,
+   "biaya_total": 1502435.3481575546,
+   "laba_kotor": 16617480.451827196,
+   "porsi_biaya": 0.09041294512203578
+  },
+  "BNBIDR": {
+   "jumlah": 9,
+   "win_rate": 0.4444444444444444,
+   "profit_factor": 5.500275515378421,
+   "rata_untung": 0.5432028901212058,
+   "rata_rugi": -0.058801121795353996,
+   "laba_bersih": 22655428.765089937,
+   "biaya_total": 1770083.788838672,
+   "laba_kotor": 24425512.553928606,
+   "porsi_biaya": 0.07246864461617905
+  }
+ }
+}

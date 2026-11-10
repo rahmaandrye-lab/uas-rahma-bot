@@ -1,0 +1,54 @@
+{
+ "order_idr": 15000000,
+ "dibuat": "2026-11-10T08:33:00.771Z",
+ "pasangan": {
+  "btcidr": {
+   "n": 11,
+   "half_spread": 0.0000010775865939607018,
+   "slip_beli": 0,
+   "slip_jual": 0
+  },
+  "ethidr": {
+   "n": 11,
+   "half_spread": 0.00008571603502112287,
+   "slip_beli": 0.00023013570819330198,
+   "slip_jual": 0.0002930509526195557
+  },
+  "xrpidr": {
+   "n": 11,
+   "half_spread": 0.0000662149336747081,
+   "slip_beli": 0,
+   "slip_jual": 0.0002613974445759837
+  },
+  "dogeidr": {
+   "n": 11,
+   "half_spread": 0.0003716090672612412,
+   "slip_beli": 0,
+   "slip_jual": 0.00045354586551293874
+  },
+  "trxidr": {
+   "n": 11,
+   "half_spread": 0.0013733905579399143,
+   "slip_beli": 0,
+   "slip_jual": 0.0001509219323228006
+  },
+  "veloidr": {
+   "n": 11,
+   "half_spread": 0.01639344262295082,
+   "slip_beli": 2.220446049250313e-16,
+   "slip_jual": 0
+  },
+  "adaidr": {
+   "n": 11,
+   "half_spread": 0.0005777007510109763,
+   "slip_beli": 0,
+   "slip_jual": 0.00016203683196513996
+  },
+  "bnbidr": {
+   "n": 11,
+   "half_spread": 0.0024152115239506502,
+   "slip_beli": 2.220446049250313e-16,
+   "slip_jual": 0
+  }
+ }
+}

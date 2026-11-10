@@ -1,0 +1,1 @@
+{ "name": "uas-rahma-bot", "private": true, "type": "module", "engines": { "node": ">=18" } }
