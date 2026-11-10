@@ -7,7 +7,7 @@
 | Nama / NIM | Rahma Sarita / 25110200035 |
 | Mata kuliah | Algorithmic Trading, tugas individu |
 | Vercel | _(belum diisi)_ |
-| Repo | https://github.com/_(belum diisi)_/uas-rahma-bot |
+| Repo | https://github.com/rahmaandrye-lab/uas-rahma-bot |
 | Commit freeze | _(belum diisi)_ |
 
 Bot dry run untuk pasar kripto IDR Indodax. Data diambil dari API publik Indodax tanpa API key, dan order hanya disimulasikan di order book. State dan log disimpan di Upstash Redis dengan prefix `rahmabot:`. Satu fungsi `decide()` di [lib/strategy.js](lib/strategy.js) dipakai oleh bot ([api/tick.js](api/tick.js)) dan backtest ([tools/backtest.mjs](tools/backtest.mjs)).
